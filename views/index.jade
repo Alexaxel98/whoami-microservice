@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  h1= title
+  p Operating Software: #{info}
+  p Your Language: #{language}
+  p Your IP address: #{ip}
+  
+  body 
+   br
+   br
+   div.container 
+     div.jumbotron
+       p 
+       b User Story:
+       p I can get the IP address, language and operating system for user browser.
